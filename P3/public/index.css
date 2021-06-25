@@ -1,0 +1,45 @@
+/* All text fonts are set to arial*/
+h1 {
+  font-family: arial;
+}
+
+h2 {
+  font-family: arial;
+}
+
+label {
+  font-family: arial;
+}
+
+p {
+  font-family: arial;
+  font-style: italic;
+}
+
+/* Buttons */
+#filter_button {
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  padding: 8px 8px;
+  border-radius: 10px;
+}
+
+/* Table */
+table, th, td {
+  border: 1px solid black;
+  font-family: arial;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #E2EDED;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
