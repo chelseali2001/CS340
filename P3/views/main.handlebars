@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+	<title>Program 3</title>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	
+	<!--Getting the javascript files-->
+	{{#each jsscripts}}
+	<script src="/static/{{this}}"></script>
+	{{/each}}
+
+	<!--Getting the css style code-->
+	<link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+	{{{body}}}
+</body>
+</html>
